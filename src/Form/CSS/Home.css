@@ -1,0 +1,13 @@
+.bullets {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navLinksInput {
+    width: 150px;
+    line-height: 60px;
+    background-color: #2d9fc9;
+    text-align: center;
+    border-radius: 10%;
+    text-decoration: none;
+}

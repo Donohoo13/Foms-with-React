@@ -1,0 +1,12 @@
+body {
+    background: grey;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin:
+}
+div[1] {
+    align-self: flex-end;
+}
