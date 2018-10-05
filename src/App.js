@@ -21,7 +21,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
             <Route exact path="/" component={home} />
             <Route path="/form" component={ContactForm} />
             <Route path="/confirm-password" component={ConfirmPassword} />
-            {/* <Route path="/example" component={Example} /> */}
+            <Route path="/example" component={Example} />
 
            </div>
          </Router>
