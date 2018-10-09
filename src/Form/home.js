@@ -15,6 +15,11 @@ const BasicExample = () => (
           </Link>
         </li>
         <li class='navLinks'>
+          <Link to="/signIn">
+            <input class='navLinksInput' type='button' value='Sign In'></input>
+          </Link>
+        </li>
+        <li class='navLinks'>
           <Link to="/signUp">
             <input class='navLinksInput' type='button' value='Sign Up'></input>
           </Link>
@@ -34,6 +39,7 @@ const BasicExample = () => (
       <hr />
 
       <Route exact path="/" component={Home} />
+      <Route exact path="/signIn" component={} />
       <Route path="/signUp" component={ContactForm} />
       <Route path="/confirmPassword" component={ConfirmPassword} />
       <Route path="/example" component={Example} />

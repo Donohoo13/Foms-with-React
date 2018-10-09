@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import signIn from './Form/SignIn';
 import ContactForm from './Form/form';
 import ConfirmPassword from './Form/ConfirmPassword';
 import Example from './Form/Example';
@@ -12,6 +13,11 @@ const BasicExample = () => (
         <li class='navLinks'>
           <Link to="/">
             <input class='navLinksInput' type='button' value='Home'></input>
+          </Link>
+        </li>
+        <li class='navLinks'>
+          <Link to="/signIn">
+            <input class='navLinksInput' type='button' value='Sign In'></input>
           </Link>
         </li>
         <li class='navLinks'>
@@ -34,6 +40,7 @@ const BasicExample = () => (
       <hr />
 
       <Route exact path="/" component={Home} />
+      <Route exact path="/signIn" component={signIn} />
       <Route path="/signUp" component={ContactForm} />
       <Route path="/confirmPassword" component={ConfirmPassword} />
       <Route path="/example" component={Example} />

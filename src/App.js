@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
+import signIn from './Form/SignIn';
 import ContactForm from './Form/form';
 import ConfirmPassword from './Form/ConfirmPassword';
 import './Form/CSS/app.css';
@@ -14,11 +15,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
              <ol>
                <li> <link to="/">Home</link></li>
                <li> <link to="/form">Form</link></li>
+               <li> <link to="/sign-in">Sign In</link></li>
                <li> <link to="/confirm-password">Confirm Password</link></li>
                <li> <link to="/example">Example</link></li>
             </ol>
 
             <Route exact path="/" component={home} />
+            <Route exact path="/sign-in" component={signIn} />
             <Route path="/form" component={ContactForm} />
             <Route path="/confirm-password" component={ConfirmPassword} />
             <Route path="/example" component={Example} />

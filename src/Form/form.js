@@ -17,6 +17,8 @@ class ContactForm extends Component {
                     <input class='signUpInput' type='tel' placeholder='*** *** ****' name='Phone Number'></input>   
                 <label class='signUpFormL'> Email:</label>
                     <input class='signUpInput' type="email" placeholder='johnsmith123@js.com' name='Email'></input>
+                <label class='signUpFormL'> Password:</label>
+                    <input class='signUpInput' type="password" name='Password'></input>
                 <input class='submitButton' type='submit' value='Submit' ></input>
             </form>
             
